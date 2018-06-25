@@ -2,7 +2,11 @@
 templateKey: blog-post
 title: Mia Soul
 date: '2018-06-25T18:00:32+02:00'
-description: Creating Game Experiences
+description: >-
+  In 2015 I first got in contact with game development. I've always been
+  interested into games but I never had the patience to get familiar with a
+  programming language or anything else that was related to games.
+   
 tags:
   - Games
   - Entertainment
