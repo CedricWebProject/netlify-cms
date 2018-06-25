@@ -1,11 +1,15 @@
 ---
 templateKey: blog-post
-title: First Post
-date: '2018-06-05T19:53:32+02:00'
-description: Test
+title: Mia Soul
+date: '2018-06-25T18:00:32+02:00'
+description: Creating Game Experiences
 tags:
-  - test
+  - Games
+  - Entertainment
+  - Software-Development
 ---
-![](/img/pexels-photo-691668.jpeg)
+This game is the result of a so called "GameJam" at the Waterkant Festival 2018. It was the first time I participated in a GameJam and it was a great experience.
 
-**Test _data_**
+## **`What is a GameJam?`**
+
+A GameJam is an event where the target is to invent a playable game in a given time period. If you're not that familiar with programming or working with game engine you can still create a game concept and present it. Every GameJam has a theme which the game should somehow be related to.
