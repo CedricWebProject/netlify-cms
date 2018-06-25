@@ -13,7 +13,7 @@ const children = styled("div")({
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="Home | Flying Herring" />
+    <Helmet title="Home | CedricHrng" />
     <Navbar />
     <children>{children()}</children>
   </div>
