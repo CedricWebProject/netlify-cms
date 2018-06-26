@@ -1,12 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
-import styled from "styled-components"
-
-const contentWrapper = styled("div")({
-  display: "flex",
-  flexdirection: "row",
-});
 
 export default class IndexPage extends React.Component {
   render() {
@@ -15,7 +9,7 @@ export default class IndexPage extends React.Component {
 
     return (
       <section className="section">
-        <contentWrapper className="container">
+        <div className="container">
           {posts
             .map(({ node: post }) => (
               <div
@@ -40,7 +34,7 @@ export default class IndexPage extends React.Component {
                 </p>
               </div>
             ))}
-        </contentWrapper>
+        </div>
       </section>
     )
   }
