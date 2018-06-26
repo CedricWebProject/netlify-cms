@@ -6,16 +6,11 @@ import Helmet from 'react-helmet'
 import Navbar from '../components/Navbar'
 import './all.sass'
 
-const children = styled("div")({
-  display: "flex",
-  flexdirection: "row",
-});
-
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet title="Home | CedricHrng" />
     <Navbar />
-    <children>{children()}</children>
+    <div>{children()}</div>
   </div>
 )
 
